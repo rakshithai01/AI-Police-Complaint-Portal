@@ -1,69 +1,117 @@
 
-# 🚔 AI Police Complaint Portal
+# AI Police Complaint Portal
 
-An AI-assisted, multilingual platform designed to help citizens draft structured police complaints, translate petitions, and track complaint status through a user-friendly digital interface.
+A multilingual, AI-assisted platform that helps citizens draft police complaints, translate petitions, and track complaint status online. This project is a hackathon prototype designed to improve accessibility, transparency, and the citizen experience.
 
-## 🎯 Problem Statement
-Citizens may face difficulties visiting police stations, preparing written petitions, overcoming language barriers, and tracking complaint updates.
+> **Disclaimer:** This is a demonstration prototype, not an official Telangana Police service. It is not connected to police systems unless an authorized integration is implemented. Do not submit real sensitive personal information through the demo.
 
-## 💡 Our Solution
-The AI Police Complaint Portal demonstrates how AI can simplify complaint drafting, support multilingual access, and provide a clear complaint-tracking workflow.
+## 🚀 Features
 
-## ✨ Key Features
-- 📝 Online complaint drafting
-- 🤖 AI-assisted petition generation
-- 🌐 Multilingual interface
-- ✍️ Review and edit petition drafts
-- 🔎 Complaint reference ID and status tracking
-- 🛡️ Admin dashboard concept
-- 📱 Responsive user interface
-- 🚨 Emergency guidance for India: Call 112
-
-## 🛠️ Technology Stack
-- Frontend: Add the actual framework or technologies used
-- AI integration: Add the provider used, if implemented
-- Translation: Add the translation service used, if implemented
-- Version control: Git and GitHub
-- Deployment: Add your live deployment platform, if available
+- 📝 **Online Complaint Drafting** — Enter incident details and prepare a structured complaint.
+- 🤖 **AI-Assisted Petitions** — Convert descriptions into formal petition drafts.
+- 🌐 **Multilingual Support** — Language selection for the interface and petition workflow.
+- ✏️ **Petition Review** — Review and edit generated text before submission.
+- 🔎 **Complaint Tracking** — Demonstrate complaint reference IDs and status timelines.
+- 🛡️ **Admin Dashboard Concept** — Illustrate complaint review and status management.
+- 📱 **Responsive Design** — Designed for desktop, tablet, and mobile screens.
+- 🚨 **Emergency Information** — Call 112 in India for emergencies.
 
 ## 🖼️ Screenshots
-Upload screenshots of the homepage, complaint form, language settings, and tracking page to a `screenshots/` folder. Then embed them here.
 
-<!-- Example:
-![Homepage](screenshots/homepage.png)
+Add screenshots of your actual website to the repository in a folder named `screenshots`, then uncomment or update these image links.
+
+<!-- Uncomment after uploading your screenshots:
+![Portal Homepage](screenshots/homepage.png)
 ![Complaint Form](screenshots/complaint-form.png)
+![Language Settings](screenshots/language-settings.png)
+![Complaint Tracking](screenshots/tracking.png)
 -->
 
-## 🚀 Getting Started
+## 🎯 Problem Statement
 
-### Run locally
+Citizens may spend time visiting police stations to prepare written complaints and may find it difficult to track updates. Language barriers and uncertainty about petition writing can create additional challenges.
+
+## 💡 Proposed Solution
+
+The AI Police Complaint Portal demonstrates a digital workflow for entering incident details, preparing a structured petition, reviewing the draft, and viewing complaint status updates.
+
+## 🛠️ Technology Stack
+
+Update this section to reflect the technologies actually used in your project.
+
+- **Frontend:** HTML, CSS, JavaScript, or the framework used
+- **AI Services:** The AI provider integrated into the application, if any
+- **Translation:** The translation solution integrated into the application, if any
+- **Version Control:** Git and GitHub
+- **Deployment:** Vercel or another hosting provider, if configured
+
+## 📂 Project Structure
+
+Example structure for a static website:
+
+    AI-Police-Complaint-Portal/
+    ├── index.html
+    ├── assets/
+    │   ├── css/
+    │   ├── js/
+    │   └── images/
+    ├── screenshots/
+    ├── README.md
+    └── LICENSE
+
+Adjust this structure to match the actual files in your repository.
+
+## ⚙️ Installation and Usage
+
+### Option 1: Open in a Browser
+
 1. Clone or download this repository.
 2. Open the project folder.
-3. If it is a static website, open `index.html` in your browser.
+3. Open `index.html` in a modern web browser.
 
-Alternatively, run a local server if Python is installed:
+### Option 2: Run a Local Server
 
-```bash
-python -m http.server 8000
-```
+If the project is a static website and Python is installed, open a terminal in the project directory and run:
 
-Open `http://localhost:8000`.
+    python -m http.server 8000
 
-Use your framework's documented commands if the project requires a build step.
+Open this address in your browser:
 
-## 🔒 Safety and Privacy
-- Use fictional data in the hackathon demonstration.
-- Never expose API keys or credentials in frontend code.
-- AI-generated petitions and legal-section suggestions require human review.
-- Protect personal information and evidence.
+    http://localhost:8000
 
-## ⚠️ Disclaimer
-This is a hackathon prototype, not an official Telangana Police service. It is not connected to police systems unless officially integrated. An online submission in this demo is not automatically a registered FIR or an official complaint. For emergencies in India, call 112.
+If the project uses React, Vite, or another framework, follow the commands defined in its `package.json`.
 
-## 🏆 Hackathon
-- Event: Tri-City AI Hackathon
-- Category: Open Innovation
-- Team name: buddineni rakshith
+## 🔐 Security and Privacy
+
+- Never commit API keys, passwords, or private credentials.
+- Use fictional data for demonstrations.
+- Protect personal information and uploaded evidence.
+- A real deployment requires secure authentication, access controls, encryption, and authorized backend integration.
+
+## ⚖️ Important Notice
+
+- An online submission in this prototype is not automatically a registered FIR or an official police complaint.
+- AI-generated petitions and suggested legal provisions are drafts that require careful review.
+- Do not invent incident details, evidence, legal sections, police station information, or tracking updates.
+- The prototype does not guarantee police action or complaint resolution.
+
+## 🧪 Testing Checklist
+
+- [ ] Homepage and navigation work correctly.
+- [ ] Complaint form validates required fields.
+- [ ] Petition drafts can be reviewed and edited.
+- [ ] Language switching works for implemented languages.
+- [ ] Tracking information is clearly identified as demo data when applicable.
+- [ ] Website works on mobile and desktop.
+- [ ] No secrets or private information are included in the repository.
+
+## 🏆 Hackathon Information
+
+- **Project:** AI Police Complaint Portal
+- **Category:** Open Innovation
+- **Event:** Tri-City AI Hackathon
+- **Team:** Buddineni Rakshith.
 
 ## 📄 License
-"MIT License".
+
+See the ` MIT LICENSE` file in this repository for licensing terms.
